@@ -7,7 +7,7 @@
     'category': "Stock",
     'summary': "Filter Picking That Only Have Picking Ready",
     'description': """
-    - Filter Picking That Only Have Picking Ready
+    - Filter Stock Picking Type That Only Have Picking Ready
     - odoo version 10
     """,
     'data':[
