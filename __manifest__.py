@@ -10,6 +10,8 @@
     - Filter Stock Picking Type That Only Have Picking Ready
     - odoo version 10
     """,
+    'price': 9.99,
+    'currency':'USD',
     'data':[
         "views/stock_picking_views.xml"],
     'qweb': ['static/src/xml/pos.xml'],
