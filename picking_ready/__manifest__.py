@@ -3,7 +3,7 @@
     'name': "Filter Picking Ready",
     'depends': ['stock'],
     'author': "Heru Prasetyo Utomo",
-    'website': "hprasetyou.com",
+    'website': "http://hprasetyou.com",
     'category': "Stock",
     'summary': "Filter Picking That Only Have Picking Ready",
     'description': """

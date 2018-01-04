@@ -3,11 +3,10 @@
     'version': '1.0',
     'depends': ['web','product'],
     'author': 'Heru Prasetyo Utomo',
-    'website': "hprasetyou.com",
+    'website': "http://hprasetyou.com",
     'description': """
         Show image of product when you hover on product
     """,
-    'website': 'http://www.portcities.net',
     'category': 'Inventory',
     'sequence': 1,
     'js': 'static/src/js/product_image_on_hover.js',
