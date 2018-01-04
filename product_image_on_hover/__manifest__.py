@@ -12,6 +12,10 @@
     'sequence': 1,
     'js': 'static/src/js/product_image_on_hover.js',
     'data': ['product_image_on_hover.xml'],
+    'images': [
+        'static/description/ss1.png',
+        'static/description/ss2.png',
+    ],
     'auto_install': False,
     'installable': True,
     'application': False,
