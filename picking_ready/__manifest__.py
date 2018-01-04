@@ -7,11 +7,14 @@
     'category': "Stock",
     'summary': "Filter Picking That Only Have Picking Ready",
     'description': """
-    - Filter Stock Picking Type That Only Have Picking Ready
+    - create filter Stock Picking Type That Only Have Picking Ready
     - odoo version 10
     """,
     'price': 0.99,
     'currency':'USD',
+    'images': [
+            'static/description/ss.png',
+    ],
     'data':[
         "views/stock_picking_views.xml"],
     'qweb': ['static/src/xml/pos.xml'],
