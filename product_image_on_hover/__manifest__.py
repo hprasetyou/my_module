@@ -5,7 +5,7 @@
     'author': 'Heru Prasetyo Utomo',
     'website': "hprasetyou.com",
     'description': """
-        Product image on hover
+        Show image of product when you hover on product
     """,
     'website': 'http://www.portcities.net',
     'category': 'Inventory',
@@ -13,8 +13,8 @@
     'js': 'static/src/js/product_image_on_hover.js',
     'data': ['product_image_on_hover.xml'],
     'images': [
-        'static/description/ss1.png',
         'static/description/ss2.png',
+        'static/description/ss1.png',
     ],
     'auto_install': False,
     'installable': True,
