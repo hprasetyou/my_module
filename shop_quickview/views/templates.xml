@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Layout and common templates -->
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Shop">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/shop_quickview/static/src/js/shop_quickview.js"></script>
+            <link rel='stylesheet' href='/shop_quickview/static/src/css/shop_quickview.css' />
+        </xpath>
+    </template>
+    <template id="products_item_quickview" inherit_id="website_sale.products_item" customize_show="True" active="True" name="Quick view">
+        <xpath expr="//div[@class='oe_product_image']" position="inside">
+            <div class="prod_layer">
+                <a class="btn btn_quickview btn-default">
+                    <i class="fa fa-search"></i> Quickview
+                </a>
+            </div>
+        </xpath>
+    </template>
+    <template id="products_item_quickview_modal" inherit_id="website_sale.products" customize_show="True" active="True" name="Modal quickview website sale product ">
+        <xpath expr="//div[@class='js_sale']" position="after">
+            <div class="modal fade" id="prodDetail" tabindex="-1" role="dialog" aria-labelledby="prodDetailLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">
+                                    <i class="fa fa-close"></i>
+                                </span>
+                            </button>
+                            <h4 class="modal-title" id="prodDetailLabel">Quickview</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img class="img img-responsive" src="" alt="" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <form action="/shop/cart/update" id="add-cart-form" method="post">
+                                        <input type="hidden" name="product_id" id="product_id" />
+                                        <button type="submit" class="btn btn-primary pull-right"> <i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </form>
+                                    <a href="" class="btn btn-primary pull-right" style="display:none" id="product-detail"> <i class="fa fa-search"></i>  Product detail</a>
+                                    <h4 id="productTitle"></h4>
+                                    <div>
+                                    <p id="prodDescription"></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

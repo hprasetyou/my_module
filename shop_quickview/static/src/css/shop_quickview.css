@@ -1,0 +1,26 @@
+.prod_layer{
+    position: absolute;
+    background: rgba(100, 100, 100, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: none;
+}
+.oe_product .oe_product_image{
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 65px;
+}
+.btn_quickview{
+    position: relative;
+    top: 38%;
+}
+
+#prodDescription{
+
+    color: #808183;
+    font-size: 0.95em;
+    font-style: italic;
+    margin-top: 25px;
+}
