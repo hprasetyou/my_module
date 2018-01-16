@@ -1,5 +1,5 @@
 {
-    'name': 'Product Quickview',
+    'name': 'Product Sales Quickview',
     'version': '1.0',
     'depends': ['website_sale'],
     'author': 'Heru Prasetyo Utomo',
