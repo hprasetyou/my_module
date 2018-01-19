@@ -1,7 +1,7 @@
 {
     'name': 'Product image on hover',
     'version': '1.0',
-    'depends': ['web','product'],
+    'depends': ['web', 'product'],
     'author': 'Heru Prasetyo Utomo',
     'website': "http://hprasetyou.com",
     'description': """

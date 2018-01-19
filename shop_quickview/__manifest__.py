@@ -26,6 +26,7 @@
     'depends': ['website_sale'],
     'author': 'Heru Prasetyo Utomo',
     'website': "http://hprasetyou.com",
+    'summary': "Show pop up to quickview and add product to cart",
     'description': """
         Show pop up to quickview and add product to cart
     """,
